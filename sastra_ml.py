@@ -2851,6 +2851,9 @@ if __name__ == '__main__':
 
     ml_engine.train(db_ref=None, force_synthetic=True)
     if db: init_firebase()
-    if __name__ == "__main__":
+    if __name__ == '__main__':
+    # ... all the print statements ...
+    ml_engine.train(db_ref=None, force_synthetic=True)
+    if db: init_firebase()
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False)
